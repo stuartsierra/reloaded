@@ -6,15 +6,17 @@ TODO: Brief description
 
 ## Releases and Dependency Information
 
-* Latest stable release is: TODO
+* Releases are published to TODO_LINK
 
-* All released versions: TODO link
+* Latest stable release is TODO_LINK
 
-[Leiningen](http://leiningen.org/) dependency information:
+* All released versions TODO_LINK
+
+[Leiningen] dependency information:
 
     [{{full-name}} "0.1.0-SNAPSHOT"]
 
-[Maven](http://maven.apache.org/) dependency information:
+[Maven] dependency information:
 
     <dependency>
       <groupId>{{groupId}}</groupId>
@@ -22,17 +24,20 @@ TODO: Brief description
       <version>0.1.0-SNAPSHOT</version>
     </dependency>
 
-
-
-## Change Log
-
-* Version 0.1.0-SNAPSHOT
+[Leiningen]: http://leiningen.org/
+[Maven]: http://maven.apache.org/
 
 
 
 ## Usage
 
 TODO
+
+
+
+## Change Log
+
+* Version 0.1.0-SNAPSHOT
 
 
 
