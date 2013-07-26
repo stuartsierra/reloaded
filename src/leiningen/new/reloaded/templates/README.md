@@ -41,7 +41,7 @@ TODO
 
 
 
-## License
+## Copyright and License
 
 Copyright © {{year}} TODO_INSERT_NAME All rights reserved.
 
