@@ -13,9 +13,31 @@ This template is based on the blog article [My Clojure Workflow, Reloaded].
 This template requires [Leiningen] 2.
 
 Run `lein new reloaded com.example/new-project` to generate a new
-project skeleton in the `new-project` directory.
+project skeleton in the `new-project` directory, with a structure like
+this:
+
+    .
+    ├── README.md
+    ├── epl-v10.html
+    ├── project.clj
+    ├── dev
+    │   └── user.clj
+    └── src
+        └── com
+            └── example
+                └── new_project.clj
+
+The `dev` directory contains files that you will use only during
+interactive development, including `user.clj` which is automatically
+loaded by Clojure at startup.
+
+The `src` directory contains your application source files.
+
+See the [article] for an explanation of how I use these files to
+develop an application.
 
 [Leiningen]: http://leiningen.org/
+[article]: http://thinkrelevance.com/blog/2013/06/04/clojure-workflow-reloaded
 
 
 ## Change Log
