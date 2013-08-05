@@ -1,7 +1,7 @@
 # reloaded
 
 A Leiningen 2 template to generate project skeletons using
-[tools.namespace] and a `:dev` profile with a user.clj file.
+[tools.namespace] and a `:dev` profile with a `user.clj` file.
 
 This template is based on the blog article [My Clojure Workflow, Reloaded].
 
