@@ -8,9 +8,23 @@ This template is based on the blog article [My Clojure Workflow, Reloaded].
 [tools.namespace]: https://github.com/clojure/tools.namespace
 [My Clojure Workflow, Reloaded]: http://thinkrelevance.com/blog/2013/06/04/clojure-workflow-reloaded
 
-## Usage
+
+## Releases and Dependency Information
 
 This template requires [Leiningen] 2.
+
+I publish releases to [Clojars].
+
+Current release is 0.1.0
+
+No installation is necessary; Leiningen should automatically discover
+and download the template.
+
+[Leiningen]: http://leiningen.org/
+[Clojars]: http://clojars.org/
+
+
+## Usage
 
 Run `lein new reloaded com.example/new-project` to generate a new
 project skeleton in the `new-project` directory, with a structure like
@@ -36,13 +50,12 @@ The `src` directory contains your application source files.
 See the [article] for an explanation of how I use these files to
 develop an application.
 
-[Leiningen]: http://leiningen.org/
 [article]: http://thinkrelevance.com/blog/2013/06/04/clojure-workflow-reloaded
 
 
 ## Change Log
 
-* Version 0.1.0-SNAPSHOT
+* Version 0.1.0 released on 2013-Aug-05
 
 
 ## Forking
