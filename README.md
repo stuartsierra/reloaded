@@ -45,6 +45,14 @@ develop an application.
 * Version 0.1.0-SNAPSHOT
 
 
+## Forking
+
+I created this template for my own personal use, and I am publishing
+it in the hopes that others will find it useful. I encourage you to
+fork and modify this template to suit your own needs and personal
+workflow, but I am unlikely to merge any changes into this repository.
+
+
 ## Copyright and License
 
 Copyright © 2013 Stuart Sierra. All rights reserved. The use and
