@@ -15,7 +15,7 @@ This template requires [Leiningen] 2.
 
 I publish releases to [Clojars].
 
-Current release is 0.1.0
+Current release is 0.1.1
 
 No installation is necessary; Leiningen should automatically discover
 and download the template.
@@ -32,7 +32,6 @@ this:
 
     .
     ├── README.md
-    ├── epl-v10.html
     ├── project.clj
     ├── dev
     │   └── user.clj
@@ -55,6 +54,8 @@ develop an application.
 
 ## Change Log
 
+* Version 0.1.1 released on 2013-Oct-21
+  * Do not assume EPL or any other license in generated project
 * Version 0.1.0 released on 2013-Aug-05
 
 
