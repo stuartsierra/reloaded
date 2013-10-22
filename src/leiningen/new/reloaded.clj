@@ -30,7 +30,6 @@ project. Names without a groupId are also accepted."
                 :path (name-to-path name)}]
       (->files data
                [".gitignore" (render ".gitignore")]
-               ["epl-v10.html" (render "epl-v10.html")]
                ["README.md" (render "README.md" data)]
                ["project.clj" (render "project.clj" data)]
                ["src/{{path}}.clj" (render "main.clj" data)]
