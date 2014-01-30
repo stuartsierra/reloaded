@@ -18,25 +18,33 @@
   development."
   nil)
 
+(def system-state
+  "A Var containing a keyword representing the state of the
+  application under development (:stopped or :started)."
+  :stopped)
+
 (defn init
   "Creates and initializes the system under development in the Var
   #'system."
   []
+  {:pre [(= system-state :stopped)]}
   ;; TODO
   )
 
 (defn start
   "Starts the system running, updates the Var #'system."
   []
+  {:pre [(= system-state :stopped)]}
   ;; TODO
-  )
+  (alter-var-root #'system-state (constantly :started)))
 
 (defn stop
   "Stops the system if it is currently running, updates the Var
   #'system."
   []
+  {:pre [(= system-state :started)]}
   ;; TODO
-  )
+  (alter-var-root #'system-state (constantly :stopped)))
 
 (defn go
   "Initializes and starts the system running."
