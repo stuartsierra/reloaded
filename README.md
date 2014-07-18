@@ -54,6 +54,7 @@ develop an application.
 
 ## Change Log
 
+* Current Git master branch at 0.1.3-SNAPSHOT
 * Version 0.1.2 released on 2014-Jul-18
   * Update Clojure & tools.namespace dependencies in template
 * Version 0.1.1 released on 2013-Oct-21
