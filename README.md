@@ -54,6 +54,7 @@ develop an application.
 
 ## Change Log
 
+* Current Git master branch at 0.1.4-SNAPSHOT
 * Version 0.1.3 released on 2014-Oct-04
   * Update tools.namespace dependency in template
 * Version 0.1.2 released on 2014-Jul-18
