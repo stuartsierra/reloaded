@@ -15,7 +15,7 @@ This template requires [Leiningen] 2.
 
 I publish releases to [Clojars].
 
-Current release is 0.1.2
+Current release is 0.1.3
 
 No installation is necessary; Leiningen should automatically discover
 and download the template.
@@ -54,7 +54,8 @@ develop an application.
 
 ## Change Log
 
-* Current Git master branch at 0.1.3-SNAPSHOT
+* Version 0.1.3 released on 2014-Oct-04
+  * Update tools.namespace dependency in template
 * Version 0.1.2 released on 2014-Jul-18
   * Update Clojure & tools.namespace dependencies in template
 * Version 0.1.1 released on 2013-Oct-21
