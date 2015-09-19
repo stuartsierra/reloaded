@@ -9,7 +9,7 @@
   "Project with tools.namespace, profiles, and user.clj
 
 This template generates a project skeleton using tools.namespace and
-a :dev profile containing a user.clj file. It is based on the blog
+a :dev profile containing a dev.clj file. It is based on the blog
 article \"My Clojure Workflow, Reloaded\" at
 http://thinkrelevance.com/blog/2013/06/04/clojure-workflow-reloaded
 
@@ -33,4 +33,5 @@ project. Names without a groupId are also accepted."
                ["README.md" (render "README.md" data)]
                ["project.clj" (render "project.clj" data)]
                ["src/{{path}}.clj" (render "main.clj" data)]
+               ["dev/dev.clj" (render "dev.clj" data)]
                ["dev/user.clj" (render "user.clj" data)]))))

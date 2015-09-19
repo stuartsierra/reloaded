@@ -1,7 +1,7 @@
 # reloaded
 
 A Leiningen 2 template to generate project skeletons using
-[tools.namespace] and a `:dev` profile with a `user.clj` file.
+[tools.namespace] and a `:dev` profile with a `dev.clj` file.
 
 This template is based on the blog article [My Clojure Workflow, Reloaded].
 
@@ -15,7 +15,7 @@ This template requires [Leiningen] 2.
 
 I publish releases to [Clojars].
 
-Current release is 0.1.3
+Current release is 0.2.0
 
 No installation is necessary; Leiningen should automatically discover
 and download the template.
@@ -34,17 +34,24 @@ this:
     ├── README.md
     ├── project.clj
     ├── dev
+    │   └── dev.clj
     │   └── user.clj
     └── src
         └── com
             └── example
                 └── new_project.clj
 
-The `dev` directory contains files that you will use only during
-interactive development, including `user.clj` which is automatically
-loaded by Clojure at startup.
-
 The `src` directory contains your application source files.
+
+The `dev` directory contains files that you will use only during
+interactive development, including:
+
+ * `user.clj`, loaded automatically by Clojure at startup, which
+   contains a single function `(dev)` to load the development
+   namespace.
+
+ * `dev.clj` which contains template functions to start/stop your
+   application.
 
 See the [article] for an explanation of how I use these files to
 develop an application.
@@ -55,6 +62,9 @@ develop an application.
 ## Change Log
 
 * Current Git master branch at 0.1.4-SNAPSHOT
+* Version 0.2.0 released on 2015-Sept-19
+  * Move start/stop functions into `dev` namespace
+  * Update tools.namespace & Clojure versions
 * Version 0.1.3 released on 2014-Oct-04
   * Update tools.namespace dependency in template
 * Version 0.1.2 released on 2014-Jul-18
@@ -74,7 +84,7 @@ workflow, but I am unlikely to merge any changes into this repository.
 
 ## Copyright and License
 
-Copyright © 2013 Stuart Sierra. All rights reserved. The use and
+Copyright © 2013-2015 Stuart Sierra. All rights reserved. The use and
 distribution terms for this software are covered by the
 [Eclipse Public License 1.0] which can be found in the file
 epl-v10.html at the root of this distribution. By using this software
