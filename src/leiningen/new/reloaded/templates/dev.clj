@@ -49,4 +49,4 @@
   "Stops the system, reloads modified source files, and restarts it."
   []
   (stop)
-  (refresh :after 'user/go))
+  (refresh :after `go))

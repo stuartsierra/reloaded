@@ -15,7 +15,7 @@ This template requires [Leiningen] 2.
 
 I publish releases to [Clojars].
 
-Current release is 0.2.0
+Current release is 0.2.1
 
 No installation is necessary; Leiningen should automatically discover
 and download the template.
@@ -61,8 +61,9 @@ develop an application.
 
 ## Change Log
 
-* Current Git master branch at 0.1.4-SNAPSHOT
-* Version 0.2.0 released on 2015-Sept-19
+* Version 0.2.1 released on 2015-Sept-19
+  * Fix mis-named `go` symbol in `dev` namespace
+* (BROKEN) Version 0.2.0 released on 2015-Sept-19
   * Move start/stop functions into `dev` namespace
   * Update tools.namespace & Clojure versions
 * Version 0.1.3 released on 2014-Oct-04
