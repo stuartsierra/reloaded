@@ -17,7 +17,7 @@ This template requires [Leiningen] 2.
 
 I publish releases to [Clojars].
 
-Current release is 0.3.0
+Current release is 0.3.1
 
 No installation is necessary; Leiningen should automatically discover
 and download the template.
