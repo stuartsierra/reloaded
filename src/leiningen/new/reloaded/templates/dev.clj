@@ -15,7 +15,6 @@
    [clojure.set :as set]
    [clojure.string :as string]
    [clojure.test :as test]
-   [clojure.tools.logging :as log]
    [clojure.tools.namespace.repl :refer [refresh refresh-all clear]]
    [com.stuartsierra.component :as component]
    [com.stuartsierra.component.repl :refer [reset set-init start stop system]]

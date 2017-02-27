@@ -68,7 +68,9 @@ how I use these files to develop an application.
 
 ## Change Log
 
-* Version 0.3.0 released on 2017-02-27
+* Version 0.3.1 released on 2017-02-27
+  * Fix: `dev` requires `clojure.tools.logging` but it is not a dependency
+* (BROKEN) Version 0.3.0 released on 2017-02-27
   * Use [component.repl]
 * Version 0.2.1 released on 2015-09-19
   * Fix mis-named `go` symbol in `dev` namespace
