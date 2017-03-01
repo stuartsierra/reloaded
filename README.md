@@ -17,7 +17,7 @@ This template requires [Leiningen] 2.
 
 I publish releases to [Clojars].
 
-Current release is 0.3.1
+Current release is 0.4.0
 
 No installation is necessary; Leiningen should automatically discover
 and download the template.
@@ -68,6 +68,9 @@ how I use these files to develop an application.
 
 ## Change Log
 
+* Version 0.4.0 released on 2017-03-01
+  * Add test directory to created project
+  * Add CHANGELOG to created project
 * Version 0.3.1 released on 2017-02-27
   * Fix: `dev` requires `clojure.tools.logging` but it is not a dependency
 * (BROKEN) Version 0.3.0 released on 2017-02-27
