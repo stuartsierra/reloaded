@@ -31,6 +31,7 @@ project. Names without a groupId are also accepted."
       (->files data
                [".gitignore" (render ".gitignore")]
                ["README.md" (render "README.md" data)]
+               ["CHANGELOG.md" (render "CHANGELOG.md" data)]
                ["project.clj" (render "project.clj" data)]
                ["src/{{path}}.clj" (render "main.clj" data)]
                ["test/{{path}}_test.clj" (render "main_test.clj" data)]
