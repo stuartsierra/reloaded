@@ -20,6 +20,9 @@
    [com.stuartsierra.component.repl :refer [reset set-init start stop system]]
    [{{main-ns}}]))
 
+;; Do not try to load source code from 'resources' directory
+(clojure.tools.namespace.repl/set-refresh-dirs "dev" "src" "test")
+
 (defn dev-system
   "Constructs a system map suitable for interactive development."
   []
