@@ -63,7 +63,7 @@ interactive development, including:
 See [component.repl] and the [original article] for explanations of
 how I use these files to develop an application.
 
-[article]: http://thinkrelevance.com/blog/2013/06/04/clojure-workflow-reloaded
+[original article]: http://thinkrelevance.com/blog/2013/06/04/clojure-workflow-reloaded
 
 
 ## Change Log
