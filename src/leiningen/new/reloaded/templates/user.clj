@@ -1,19 +1,13 @@
 (ns user
   "Utility functions to rapidly bootstrap the REPL for interactive
   development. This file is automatically loaded by Clojure on
-  startup, so you can run `(dev)` or `(go)` immedately after the REPL
-  starts.")
+  startup.
 
-(defn dev
-  "Loads and switches to the 'dev' namespace."
-  []
-  (require 'dev)
-  (in-ns 'dev))
+  Run `(go)` to load all source code, start the component system
+  running, and switch to the `dev` namespace. `(reset)` is an alias
+  for `(go)`.
 
-(defn go
-  "Loads all source files, starts the application running in
-  development mode, and switches to the 'dev' namespace."
-  []
-  (in-ns 'dev)
-  (require 'com.stuartsierra.component.repl)
-  ((resolve 'com.stuartsierra.component.repl/reset)))
+  Or run `(dev)` to just load code and switch to `dev` without
+  starting the system."
+  (:require
+   [com.stuartsierra.component.user-helpers :refer [dev go reset]]))
