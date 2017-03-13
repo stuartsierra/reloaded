@@ -2,9 +2,11 @@
   "Tools for interactive development with the REPL. This file should
   not be included in a production build of the application.
 
-  The system under development is :refer'd from
-  `com.stuartsierra.component.repl/system`.
   Call `(reset)` to reload modified code and (re)start the system.
+
+  The system under development is `system`, referred from
+  `com.stuartsierra.component.repl/system`.
+
   See also https://github.com/stuartsierra/component.repl"
   (:require
    [clojure.java.io :as io]
