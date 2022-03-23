@@ -29,7 +29,7 @@ project. Names without a groupId are also accepted."
                 :main-ns (sanitize-ns name)
                 :path (name-to-path name)}]
       (->files data
-               [".gitignore" (render ".gitignore")]
+               [".gitignore" (render "gitignore")]
                ["README.md" (render "README.md" data)]
                ["CHANGELOG.md" (render "CHANGELOG.md" data)]
                ["project.clj" (render "project.clj" data)]
