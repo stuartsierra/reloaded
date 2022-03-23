@@ -1,4 +1,4 @@
-(defproject reloaded/lein-template "1.1.0"
+(defproject reloaded/lein-template "1.1.1-SNAPSHOT"
   :description "A Leiningen 2 template to generate project skeletons using
   tools.namespace and a :dev profile with a dev.clj file."
   :url "https://github.com/stuartsierra/reloaded"
