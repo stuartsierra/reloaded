@@ -31,19 +31,25 @@ and download the template.
 
 In your shell:
 
-   lein new reloaded com.example/my-project
-   cd my-project
-   lein repl
+```shell
+lein new reloaded com.example/my-project
+cd my-project
+lein repl
+```
 
 At the REPL prompt:
 
-   (go)
+```clojure
+(go)
+```
 
 This will load and switch to the `dev` namespace.
 
 As you work, reload/restart your system from the `dev` namespace:
 
-   (reset)
+```
+(reset)
+```
 
 Edit `dev/dev.clj`. Define a constructor for your application in the
 placeholder in `dev-system`.
