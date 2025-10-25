@@ -16,6 +16,10 @@ TODO: Brief description
 
     [{{full-name}} "0.1.0-SNAPSHOT"]
 
+[deps.edn] dependency information:
+
+    {{full-name}} {:mvn/version "0.1.0-SNAPSHOT"}
+
 [Maven] dependency information:
 
     <dependency>
@@ -25,6 +29,7 @@ TODO: Brief description
     </dependency>
 
 [Leiningen]: http://leiningen.org/
+[deps.edn]: http://www.gradle.org/
 [Maven]: http://maven.apache.org/
 
 
