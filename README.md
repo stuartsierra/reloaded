@@ -98,29 +98,7 @@ written before the existence of [Component] and [component.repl].
 
 ## Change Log
 
-* Version 0.5.0 released on 2017-03-12
-  * Upgrade [component.repl] to 0.2.0
-  * Refer `user-helpers` from component.repl instead of inline
-    definitions in `user.clj`
-* Version 0.4.0 released on 2017-03-01
-  * Add test directory to created project
-  * Add CHANGELOG to created project
-* Version 0.3.1 released on 2017-02-27
-  * Fix: `dev` requires `clojure.tools.logging` but it is not a dependency
-* (BROKEN) Version 0.3.0 released on 2017-02-27
-  * Use [component.repl]
-* Version 0.2.1 released on 2015-09-19
-  * Fix mis-named `go` symbol in `dev` namespace
-* (BROKEN) Version 0.2.0 released on 2015-09-19
-  * Move start/stop functions into `dev` namespace
-  * Update tools.namespace & Clojure versions
-* Version 0.1.3 released on 2014-10-04
-  * Update tools.namespace dependency in template
-* Version 0.1.2 released on 2014-07-18
-  * Update Clojure & tools.namespace dependencies in template
-* Version 0.1.1 released on 2013-10-21
-  * Do not assume EPL or any other license in generated project
-* Version 0.1.0 released on 2013-08-05
+See [CHANGELOG.md](CHANGELOG.md)
 
 
 ## Forking
