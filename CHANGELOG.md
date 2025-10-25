@@ -108,6 +108,7 @@ First release.
 [component.repl]: https://github.com/stuartsierra/component.repl
 [deps.edn]: http://www.gradle.org/
 
+[1.2.0]: https://clojars.org/reloaded/lein-template/versions/1.2.0
 [1.1.0]: https://clojars.org/reloaded/lein-template/versions/1.1.0
 [1.0.1]: https://clojars.org/reloaded/lein-template/versions/1.0.1
 [1.0.0]: https://clojars.org/reloaded/lein-template/versions/1.0.0
