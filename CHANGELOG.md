@@ -73,7 +73,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 * Fix mis-named `go` symbol in `dev` namespace
 
-## (BROKEN) 0.2.0 - 2015-09-19
+## (BROKEN) [0.2.0] - 2015-09-19
 
 ### Changes
 
@@ -81,25 +81,25 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 * Update [tools.namespace] & Clojure versions
 
-## 0.1.3 - 2014-10-04
+## [0.1.3] - 2014-10-04
 
 ### Changes
 
 * Update [tools.namespace] dependency in template
 
-## 0.1.2 - 2014-07-18
+## [0.1.2] - 2014-07-18
 
 ### Changes
 
 * Update Clojure & [tools.namespace] dependencies in template
 
-## 0.1.1 - 2013-10-21
+## [0.1.1] - 2013-10-21
 
 ### Changes
 
 * Do not assume EPL or any other license in generated project
 
-## 0.1.0 - 2013-08-05
+## [0.1.0] - 2013-08-05
 
 First release.
 
@@ -107,3 +107,17 @@ First release.
 [Component]: https://github.com/stuartsierra/component
 [component.repl]: https://github.com/stuartsierra/component.repl
 [deps.edn]: http://www.gradle.org/
+
+[1.1.0]: https://clojars.org/reloaded/lein-template/versions/1.1.0
+[1.0.1]: https://clojars.org/reloaded/lein-template/versions/1.0.1
+[1.0.0]: https://clojars.org/reloaded/lein-template/versions/1.0.0
+[0.5.0]: https://clojars.org/reloaded/lein-template/versions/0.5.0
+[0.4.0]: https://clojars.org/reloaded/lein-template/versions/0.4.0
+[0.3.1]: https://clojars.org/reloaded/lein-template/versions/0.3.1
+[0.3.0]: https://clojars.org/reloaded/lein-template/versions/0.3.0
+[0.2.1]: https://clojars.org/reloaded/lein-template/versions/0.2.1
+[0.2.0]: https://clojars.org/reloaded/lein-template/versions/0.2.0
+[0.1.3]: https://clojars.org/reloaded/lein-template/versions/0.1.3
+[0.1.2]: https://clojars.org/reloaded/lein-template/versions/0.1.2
+[0.1.1]: https://clojars.org/reloaded/lein-template/versions/0.1.1
+[0.1.0]: https://clojars.org/reloaded/lein-template/versions/0.1.0
